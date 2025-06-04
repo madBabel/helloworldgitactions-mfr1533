@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: "echo-hello-world"
-              run: |i
+              run: |
                   echo "¡Hola, mundo!"
                   sleep 20
     job2:
