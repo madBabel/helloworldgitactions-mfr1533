@@ -1,0 +1,16 @@
+name: HELLOWORLD
+on: push
+
+jobs:
+    job1: 
+        runs-on: ubuntu-latest
+        steps: 
+            - name: "echo-hello-world"
+              run: |
+                  echo "¡Hola, mundo!"
+                  sleep 20
+    job2:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: "echo2"
+              run: echo "¡Msg, mundo!"
